@@ -2,6 +2,31 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>CustomEnumBuilder</PackageId>
+    <Authors>Mike Eckel</Authors>
+    <Company>NetCodr</Company>
+    <Product />
+    <Description>This class library allows users to create custom enum classes. This allows users to assign a value other than an integer.</Description>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <PackageIcon>NetcodrIcon128px.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageProjectUrl>https://github.com/Netcodr81/CustomEnumBuilder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Netcodr81/CustomEnumBuilder</RepositoryUrl>
+    <Version>1.2.0</Version>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\NetcodrIcon128px.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\..\License\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
