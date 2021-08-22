@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CustomEnum.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CustomEnum.BaseClass
 {
-    public abstract class Enumeration
+    public abstract class Enumeration : IEnumeratorType
     {
         protected Enumeration(object value, string displayName)
         {

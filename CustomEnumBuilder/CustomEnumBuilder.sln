@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnum", "CustomEnumBuilder\CustomEnum.csproj", "{3F618CFC-022D-4A1D-9E9C-86A5C88EF8B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{2871FE6F-722F-4819-B166-147866EE465A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumCore.Tests", "CustomEnumCore.Tests\CustomEnumCore.Tests.csproj", "{F5067D63-14E5-4C87-816B-3CC776F640F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnum.Tests", "CustomEnum.Tests\CustomEnum.Tests.csproj", "{F5067D63-14E5-4C87-816B-3CC776F640F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnumBuilderExtensions", "CustomEnumBuilderExtensions\CustomEnumBuilderExtensions.csproj", "{67FF414E-2A36-47F4-9BF2-7CFA65490A23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnumBuilderCoreExtensions", "CustomEnumBuilderCoreExtensions\CustomEnumBuilderCoreExtensions.csproj", "{FA3DF934-A9D3-4675-8925-2E6C5066A8A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnum.Tests", "CustomEnum.Tests\CustomEnum.Tests.csproj", "{FE44FFF0-0AB6-4F1D-AE9E-E703476648A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +23,22 @@ Global
 		{3F618CFC-022D-4A1D-9E9C-86A5C88EF8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F618CFC-022D-4A1D-9E9C-86A5C88EF8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F618CFC-022D-4A1D-9E9C-86A5C88EF8B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2871FE6F-722F-4819-B166-147866EE465A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2871FE6F-722F-4819-B166-147866EE465A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2871FE6F-722F-4819-B166-147866EE465A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2871FE6F-722F-4819-B166-147866EE465A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5067D63-14E5-4C87-816B-3CC776F640F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5067D63-14E5-4C87-816B-3CC776F640F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5067D63-14E5-4C87-816B-3CC776F640F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5067D63-14E5-4C87-816B-3CC776F640F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FF414E-2A36-47F4-9BF2-7CFA65490A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FF414E-2A36-47F4-9BF2-7CFA65490A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FF414E-2A36-47F4-9BF2-7CFA65490A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FF414E-2A36-47F4-9BF2-7CFA65490A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3DF934-A9D3-4675-8925-2E6C5066A8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3DF934-A9D3-4675-8925-2E6C5066A8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3DF934-A9D3-4675-8925-2E6C5066A8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3DF934-A9D3-4675-8925-2E6C5066A8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE44FFF0-0AB6-4F1D-AE9E-E703476648A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE44FFF0-0AB6-4F1D-AE9E-E703476648A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE44FFF0-0AB6-4F1D-AE9E-E703476648A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE44FFF0-0AB6-4F1D-AE9E-E703476648A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

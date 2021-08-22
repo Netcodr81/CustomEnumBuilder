@@ -1,9 +1,12 @@
+using CustomEnumBuilderCoreExtensions.Builders;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
-namespace CustomEnum.Tests
+namespace CustomEnumCore.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class CustomEnumTests
     {
         [TestMethod]
         public void EnumValue_MatchesExpectedResult()
@@ -43,6 +46,20 @@ namespace CustomEnum.Tests
             string actual = GenderEnum.Male.DisplayName;
 
             Assert.AreNotEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void GenerateSelectListItem()
+        {
+            int expcted = 3;
+
+            SelectList list = SelectListBuilder.GenerateSelectList(GenderEnum.GetAll<GenderEnum>());
+
+            int actual = list.Count();
+
+
+
+            Assert.AreEqual(expcted, actual);
         }
     }
 }

@@ -1,10 +1,8 @@
-﻿
+﻿using System;
+using System.Linq;
 using CustomEnum;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ConsoleApp
+namespace CustomEnumCore.Tests
 {
     public class GenderEnum : Enumeration<string>
     {
