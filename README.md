@@ -4,12 +4,12 @@
 You can install the latest package via Nuget package manager just search for *CustomEnumBuilder*. You can also install via powershell using the following command.
 
 ```powershell
-Install-Package CustomEnumBuilder -Version 1.0.0
+Install-Package CustomEnumBuilder -Version 1.2.0
 ```
 Or via the donet CLI
 
 ```bash
-dotnet add package CustomEnumBuilder --version 1.0.0
+dotnet add package CustomEnumBuilder --version 1.2.0
 ```
 
 ## Using the package
