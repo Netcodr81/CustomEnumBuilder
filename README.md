@@ -50,5 +50,38 @@ public class LicenseType : Enumeration<int>
  }
 }
 ```
-## Upcoming
-An extension package is upcoming. Right now the extension package will include a helper to create a select list for ASP.NET MVC and ASP.NET Core MVC application from your custom enum type. More information will be added when the Nuget packages are released. If you want to try them out now you can clone this repository and look at the CustomEnumBuilderCoreExtensions (for .NET and .NET Core) and CustomEnumBuilderExtensions (for .NET Framework)
+## CustomEnumBuilder.Extensions and CustomEnumBuilder.CoreExtensions
+These packages allow you to create a select list from your CustomEnum types. Use the CustomEnumBuilder.Extension package for .NET Framework projects and the CustomEnumBuilder.CoreExtensions for .NET Core and greater projects
+
+## Getting Started CustomEnumBuilder.Extensions
+You can install the latest package via Nuget package manager just search for *CustomEnumBuilder.Extensions*. You can also install via powershell using the following command.
+
+```powershell
+Install-Package CustomEnumBuilder.Extensions -Version 1.0.0
+```
+Or via the donet CLI
+
+```bash
+dotnet add package CustomEnumBuilder.Extensions --version 1.0.0
+```
+  
+## Getting Started CustomEnumBuilder.CoreExtensions
+You can install the latest package via Nuget package manager just search for *CustomEnumBuilder.CoreExtensions*. You can also install via powershell using the following command.
+
+```powershell
+Install-Package CustomEnumBuilder.CoreExtensions -Version 1.0.0
+```
+Or via the donet CLI
+
+```bash
+dotnet add package CustomEnumBuilder.CoreExtensions --version 1.0.0
+```
+## Using the packages
+The use is the same for both
+1. Create your custom enum type (see CustomEnumBuilder above)
+
+2. Use *SelectListBuilder.GenerateSelectList* to generate the select list
+
+  ```csharp
+  SelectList list = SelectListBuilder.GenerateSelectList(GenderEnum.GetAll<GenderEnum>());
+  ```
