@@ -50,7 +50,7 @@ public class LicenseType : Enumeration<int>
  }
 }
 ```
-## CustomEnumBuilder.Extensions and CustomEnumBuilder.CoreExtensions
+# CustomEnumBuilder.Extensions and CoreExtensions
 These packages allow you to create a select list from your CustomEnum types. Use the CustomEnumBuilder.Extension package for .NET Framework projects and the CustomEnumBuilder.CoreExtensions for .NET Core and greater projects
 
 ## Getting Started CustomEnumBuilder.Extensions
