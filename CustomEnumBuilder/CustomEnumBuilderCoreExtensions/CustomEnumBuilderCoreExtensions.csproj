@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>CustomEnumBuilder.CoreExtensions</PackageId>
+    <Authors>Mike Eckel</Authors>
+    <Company>NetCodr</Company>
+    <Product>CustomEnumBuilder.CoreExtensions</Product>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Netcodr81/CustomEnumBuilder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Netcodr81/CustomEnumBuilder</RepositoryUrl>
+    <Description>This package adds extensions for the CustomEnumBuilder.</Description>
+    <PackageReleaseNotes>This release has extensions for creating select lists from a custom enum type.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,6 +20,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomEnumBuilder\CustomEnum.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

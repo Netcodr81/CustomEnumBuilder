@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>CustomEnumBuilder.Extensions</id>
+    <version>1.0.0</version>
+    <title>CustomEnumBuilder.Extensions</title>
+    <authors>Mike Eckel</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Netcodr81/CustomEnumBuilder</projectUrl>   
+    <description>This package adds extensions for the CustomEnumBuilder.</description>
+    <releaseNotes>This release has extensions for creating select lists from a custom enum type.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>C# ASP.NET .NET Framework</tags>
+  </metadata>
+</package>

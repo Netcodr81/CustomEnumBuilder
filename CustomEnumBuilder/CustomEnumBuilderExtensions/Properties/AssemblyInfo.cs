@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CustomEnumBuilderExtensions")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CustomEnumBuilder.Extensions")]
+[assembly: AssemblyDescription("This package adds extensions for the CustomEnumBuilder.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CustomEnumBuilderExtensions")]
+[assembly: AssemblyCompany("NetCodr")]
+[assembly: AssemblyProduct("CustomEnumBuilder.Extensions")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
